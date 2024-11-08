@@ -21,6 +21,9 @@ div{
     .btn:hover{
     background-color: rgb(14, 191, 191);
     }
+span{
+    text-align: center;
+}
 h1{
     text-align: center;
 }
