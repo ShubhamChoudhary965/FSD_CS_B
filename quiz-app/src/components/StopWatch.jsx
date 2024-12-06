@@ -24,7 +24,7 @@ export default function StopWatch() {
     const formattime = (time) => {
         const hour = Math.floor(time/3600)
         const h = hour<10 ? ('0'+hour): hour
-        const minutes = Math.floor(hour/60);
+        const minutes = Math.floor((time%3600)/60);
         const m = minutes<10 ? ('0'+minutes): minutes
         const seconds = time%60;
         const s = seconds<10 ? ('0'+seconds): seconds
