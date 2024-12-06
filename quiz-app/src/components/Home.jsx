@@ -6,8 +6,8 @@ export default function Home() {
     return (
         <div>
             <Link to="/">Home Page</Link>
-            <Link to="/login">Login Page</Link>
-            <Link to="/counter">Counter PAge</Link>
+            <Link to="/stopwatch">StopWatch app</Link>
+            <Link to="/counter">Counter app</Link>
         </div>
     )
 }
